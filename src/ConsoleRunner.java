@@ -1,8 +1,11 @@
 import javax.xml.transform.Result;
 
 public class ConsoleRunner {
-    Application application = new Application(args);
-    Result result = application.run();
+    public static void main(String[] args) {
+        Application application = new Application(args);
+        Result result = application.run();
+        System.out.println(result);
+    }
 }
 
 
